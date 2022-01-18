@@ -2,11 +2,21 @@
 package monsters;
 
 
-      public class Monster // base Class, super Class, parent Class
+      public abstract class Monster // base Class, super Class, parent Class
       {
     
-        public double hitPoints;
-        public double speed;
+        private double hitPoints;
+        private double speed;
+        
+        protected double getHitPoints()
+        {
+            return hitPoints;
+        }
+        
+        protected void setHitPoints(double hitPoints)
+        {
+            this.hitPoints = hitPoints;
+        }
         
         public void attack()
         {
@@ -16,7 +26,13 @@ package monsters;
             System.out.println("I'm attacking from Monster class");
 
         }
+        
+        abstract protected void description();
+        {
+            
+        }        
         public Monster()
+               
         {
             System.out.println("I'm DEFAULT constructor from Monster class");
         }
