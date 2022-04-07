@@ -1,0 +1,3 @@
+C:\Users\E\source\repos\DesktopApp\obj\Debug\netcoreapp3.1\DesktopApp.csproj.AssemblyReference.cache
+C:\Users\E\source\repos\DesktopApp\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\E\source\repos\DesktopApp\obj\Debug\netcoreapp3.1\DesktopApp_MarkupCompile.cache
